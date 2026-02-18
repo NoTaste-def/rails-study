@@ -11,26 +11,10 @@
 <br/>
 <br/>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### 오류 예시
 
-Things you may want to cover:
-
-- Ruby version
-
-- System dependencies
-
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
-# rails-study
+- `SyntaxError`: 코드 문법에 오류가 있을 때 발생합니다. (예: 오타, 괄호 누락)
+- `NameError`: 정의되지 않은 변수나 메서드를 사용했을 때 발생합니다. (예: 변수 이름 오타)
+- `ActionController::RoutingError`: 웹 주소(URL)에 해당하는 라우트가 정의되지 않았을 때 발생합니다.
+- `ActiveRecord::RecordNotFound`: 데이터베이스에서 특정 데이터를 찾을 수 없을 때 발생합니다.
+- `TemplateError`: 뷰 파일에서 오류가 발생했을 때 발생. (예: 뷰에서 존재하지 않는 변수를 사용)
