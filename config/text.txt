@@ -1,0 +1,6 @@
+config:
+어플리케이션의 환경 설정과 관련된 파일들을 저장하는 곳.
+
+- environments: 개발(development), 테스트(test), 운영(production) 환경설정
+- initializers: 어플리케이션 시작 시 실행되는 설정 파일
+- locales: 다국어 지원을 위한 설정 파일
