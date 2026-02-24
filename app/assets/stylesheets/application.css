@@ -8,3 +8,7 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+/* 여기가 모든 css를 모아야하는 장소 */
+
+@import "welcome.css";

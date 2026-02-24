@@ -1,7 +1,7 @@
 <h1>헬로 레일즈</h1>
 <p>이 문단은 Rails View를 통해서 보여짐. <br> 그리고 아래에 현재 시간 나오는데 저거는 Ruby 문법으로 띄운것. </p>
 
-<p>현재시간: <%= Time.now %></p>
+<p class="highlight">현재시간: <%= Time.now %></p>
 <%# Time.now는 Ruby 코드를 실행하여 현재 시간을 출력하는 ERB 문법 %>
 <%# erb 확장자는 embedded ruby의 약자. 따라서 html 내부에서 ruby 문법 사용하능 %>
 
@@ -9,6 +9,7 @@
 <%# <%= image_tag("rails.png", alt: "로고가 엄슴") %> %>
 <%# 위 코드는 <img alt="로고가 엄슴" src="/assets/rails.png"> 와 동일함. %>
 
+<br>
 <%= link_to 'Go to Home', root_path %>
 <%# 위 코드는 <a href='/'>Go to Home</a> 와 같다. %>
 <br>
